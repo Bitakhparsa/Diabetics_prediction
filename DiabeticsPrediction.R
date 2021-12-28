@@ -21,7 +21,7 @@ library(gam)
 
 url <- "https://github.com/Bitakhparsa/Diabetics_prediction/raw/main/diabetes2.csv"
 download.file(url, destfile = "./data.csv", method="auto")
-diabetes1 <- read.csv("data.csv")
+diabetes <- read.csv("data.csv")
 
 
 
